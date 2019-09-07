@@ -1,0 +1,43 @@
+body {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+h1 {
+  border: 2px solid rgba(151, 136, 59, 1);
+  margin-top: 10px;
+  color: rgba(235, 228, 234, 1);
+  text-align: center;
+  line-height: 58px;
+}
+.slot-wrap {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1px;
+  margin-bottom: 10px;
+}
+.game-field {
+  background-color: orange;
+  min-height: 10vh;
+  line-height: 10vh;
+}
+
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: red;
+  color: white;
+  font-size: 21pt;
+  text-align: center;
+}
+
+.target:hover {
+  cursor: pointer;
+}
+#win-message {
+  color: rgba(235, 228, 234, 1);
+}
