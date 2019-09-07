@@ -9,6 +9,10 @@ h1 {
   text-align: center;
   line-height: 58px;
 }
+
+.container {
+  height: 100vh;
+}
 .slot-wrap {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -31,8 +35,9 @@ h1 {
 .miss {
   background-color: red;
   color: white;
-  font-size: 21pt;
+  font-size: 100%;
   text-align: center;
+  word-wrap: wrap;
 }
 
 .target:hover {
