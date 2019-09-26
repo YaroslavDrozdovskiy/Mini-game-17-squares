@@ -10,7 +10,7 @@ function randomDivId() {
 }
 
 function randomMissText() {
-  let missText = ['Упс:(', 'Мимо!'];
+  let missText = ['Упс:(', 'Мимо!','Левлох'];
   random = Math.floor(Math.random() * missText.length);
   console.log(missText[random]);
   return missText[random];
