@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const maxHits = 10;
+  const maxHits = 17;
 
   let hits = 0;
   let miss = 0;
